@@ -1,0 +1,110 @@
+* {
+margin: 0%
+}
+
+body {
+	background-color: #FFE8AE;
+    }
+
+h1 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 4.5em;
+    
+}
+#image {
+    margin-bottom: 0%;
+    margin-left: 0%;
+    
+    width: 100%;
+}
+
+#intro {
+    position: absolute;
+    top: 80%;
+    margin-right:20%;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+#fact {
+    position: absolute;
+    top: 120%;
+    left: 13%;
+}
+
+#factButton {
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    font-size: 30px;
+    background-color: transparent;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+#factButton:hover {
+    background-color: salmon;
+}
+
+h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+#last {
+    margin-bottom: 10%;
+}
+
+#func {
+    border: 3px solid black;
+}
+
+#imp {
+    margin-left: 2%;
+    margin-right: 20%;
+    font-size: 25px;
+}
+
+#title {
+    margin-right: 5%;
+    margin-left: 65%;
+    display: inline;
+    font-family:'Luminari', Fantasy;
+    font-size: 40px;
+}
+
+#name {
+    font-size:25px;
+    margin-left: 70%;
+    font-family:'Lucida Handwriting', Cursive;
+}
+header ul {
+    list-style-type:none;
+    background-color: floralwhite;
+    overflow:hidden;
+    padding: 1em;
+}
+header li {
+    display: inline;
+}
+header li a {
+    text-decoration: none;
+    color:grey;
+    font-size:20px;
+    padding: 2%;
+}
+header li a:hover {
+    background-color: beige;
+    color: black;
+}
+
+h3 {
+    margin-top: 2%
+}

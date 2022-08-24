@@ -1,0 +1,50 @@
+<html>
+
+ 
+  <head>
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js"> </script>
+  </head>
+  <header>
+  
+    <nav>
+    <ul>
+      <li>
+	<a href="index.html">Home</a>
+      </li>
+      <li>
+	<a href="importance.html"> Importance</a>
+      </li>
+      <li>
+	<a href="ISP.html"> ISP </a>
+      </li>
+      <li>
+	<a href="courses.html"> Courses </a>
+      </li>
+      <li>
+	<a href="fingerPrints.html"> Fingerprints </a>
+	</li>
+      <li>
+	<p id="title"> Digital Portfolio </p>
+	<p id="name"> Jana Daouk</p>
+	</li>
+      <ul>
+  </nav>
+  </header>
+  <body>
+
+    <img id="image" src="https://i.postimg.cc/Njkq4w6h/background.png" alt="MINIONS">
+    <h1> About Me </h1>
+
+<script src="script.js"> </script>
+    
+    <button id="factButton"; onclick="generateFact()"> Click for a Fact! </button>    
+
+    <div id="fact">
+      
+</div> 
+
+  <p id="intro"> Hi! I'm Jana and I'm 16 years old as of june 13. I was born and raised in Dubai, so I can speak English, Arabic, a bit of French, and I understand a bit of Spanish. I used to dance, swim, and figure skate, but yes I will still fall on my ... face. I love reading and spending time with friends and family. I feel like thats good enough, I'll just make the font bigger, ok bye!  </p>
+  
+    </body>
+</html>  
