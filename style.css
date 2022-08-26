@@ -19,7 +19,20 @@ h1 {
     
     width: 100%;
 }
+h4 {
+    font-align: center;
+    font-size: 3em;
+}
+.essay {
 
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:10%;
+    margin-top: 5%;
+}
+#algorithm {
+    margin-left: 30%;
+}
 #intro {
     position: absolute;
     top: 80%;
