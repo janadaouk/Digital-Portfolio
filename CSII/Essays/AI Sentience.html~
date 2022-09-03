@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+  <head>
+<title>Jana</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../style.css" >
+    <script src="script.js"> </script>
+  </head>
+<body>
+  <header>
+  
+    <nav>
+    <ul>
+      <li>
+	<a href="../../index.html">Home</a>
+      </li>
+      <li>
+	<a href="../../importance.html"> Importance</a>
+      </li>
+      <li>
+	<a href="../../ISP.html"> ISP </a>
+      </li>
+      <li>
+	<a href="../../courses.html"> Courses </a>
+      </li>
+      <li class="dropDown">
+	<a href="../../index.html"> Essays </a>
+	<div class="dropDownContent" >
+	  <a href="fingerPrints.html"> fingerPrints </a>
+	  <a href="AI.html"> AI Sentience </a>
+	</div>
+      </li>
+      
+      <li>
+	<p id="title"> Digital Portfolio </p>
+	<p id="name"> Jana Daouk</p>
+	</li>
+</ul>
+  </nav>
+  </header>
+  
+<div id="AIEssay" >
+  <h4>Jana Daouk<br>
+    STEAM center <br>
+    Computer Science II <br>
+    Mr. Ben Yaakov  <br>
+  </h4>
+ 
+<div class="essay" >
+  <p>    The blood of humanity will be on the hands of humans themselves. Surprisingly, they don't need help with that, and certainly not from AI. The delusions that AI will eventually turn on their own creators is almost funny. There is no doubt that AI has gone through tremendous improvement in the past few decades. There is not a single individual whose life is not affected by the technology infecting our daily lives. People have comprised the perfect formula of fear, critisicm, loneliness, and some extra ambition on top from which the rumours that "AI will destroy humanity" stem. It definitely has its downsides, but its benfits are too good to be ignored.
+
+</p>
+
+<p> The latest 'celebrity' granted a Saudi Arabia nationality is no other than "Sophia", the world's first robot citizen. Probably, the first one revealed to the public, speaking more accurately. Upon watching her interviews, many found her to be disturbingly creepy, but no one can deny that everyone was curious. As a society, we fear change. The same propaganda came out when cell phones were first introduced. No doubt everything one says is probably being heard, and even this very essay is being read as I type, but now we can't live without them. We actually refuse to. Personally, I find Sophia to make me feel uncomfortable, but I would never pass up an opportunity to talk to her. By many she is simply a glorified chatbox, not capable of any real emotions. As humans, we really just want to relate to one another. Observe children in schools, they just want to fit in. In life, people just want to be heard and feel important. This is exactly where lines start to blur. Just because Sophia's algorithm has studied billions and billions of data about how humans interact, it is only natural that it sound a bit human. This excites us as humans, we start to think that this machine actually understands us. It is even known as the "Eliza effect". That however, is not the case. Machine learning is honestly mindblowing. An algorithm will tweak itself until it gets the task right. A person can't get a conversation right. It's just a conversation, but it is just as easy to sound human and fake empathy. So, the algorithm technically is not able to think for themselves, they simply apply what they learn from the data.   </p> 
+
+
+  <p> 	 In biology, when we 'feel happy', what is really happening is that our bodies are releasing endorphans or dopamine. In our current time, sentient AI doesn't exist. Even in the future, for robots to develop actual emotions sounds insane. Their memory capabilities definitely outperforms ours by miles, but say they did. At the moment, the human species dominates the Earth, AI is designed to work for the benefit of humans, and as long as AI is controlled by people then it does way more good than harm. It accomplishes tedious and time-consuming jobs with great efficiency, leaving room for humans to apply their efforts elsewhere. The tech world is huge, and there is so much to be improved and done that there is a true deficiency in the field today. For robots to want to destroy the world, then they would have to have some selfish desires. Technically, they could learn that from humans as they do everything else, but as long as we can pull the plug at any time, then nothing really changes. They won't even be doing it out of desire, it is simply an algorithm based off of studied data. So is it even right to call it self-serving? Humans will always want the best for themselves, so robots will learn to want the best for humans as well.
+</p>
+<p> I'm not going to be the one informing you of a loved one's passing just because of the fear of our technology taking over. What apologetic tombstone will ever make up for such a loss? Thinking back, the lives the technologies we have have saved are uncountable. Covid could've been another death plague wiping out half of humanity. That is way faster than an AI invasion if you think about it. Recently, the 'protein-folding problem' had been solved by an AI development. Among the many discoveries and future discoveries this is merely nothing. AI is going to help advance our understanding of ourselves and the universe. You can't put a price on that.     </p>
+<p> Finally, without AI, Stephen Hawking's incredible insights would never have been shared with the world. As much as AI makes normal people's daily lives easier, it is also a major help to anyone with a disability. All the electronic wheelchairs and special aide appliances wouldn't exist if AI wasn't developped. It simply makes our lives better. AI falling into the wrong hands is terrifying, giving so much power to someone is scary. Hitler for example, abused so much of his power. I'd argue nuclear bombs are equally as terrifying as any AI hack. Out of the two options, we cannot afford to be afraid of this technology because its coming anyway.    	<p>
+</div>
+
+
+<div class="sources" >
+  <ul>
+    <li> Metz, C. (2022, August 5). A.I. is not sentient. why do people say it is? The New York Times. Retrieved September 2, 2022, from https://www.nytimes.com/2022/08/05/technology/ai-sentient-google.html
+    </li>
+    <li>
+      Roose, K. (2022, August 24). We need to talk about how good A.I. is getting. The New York Times. Retrieved September 2, 2022, from https://www.nytimes.com/2022/08/24/technology/ai-technology-progress.html 
+    </li>
+    <li>
+      Sophia. Hanson Robotics. (2020, September 1). Retrieved September 2, 2022, from https://www.hansonrobotics.com/sophia/ 
+    </li> 
+    </ul>
+</div>  
+</div>
+</body>
+</html>  

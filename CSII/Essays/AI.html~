@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+\83;40800;0c<!DOCTYPE html>
 <html lang="en">
 
  
   <head>
 <title>Jana</title>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css" >
+<link rel="stylesheet" href="../../style.css" >
     <script src="script.js"> </script>
   </head>
 <body>
@@ -14,19 +14,19 @@
     <nav>
     <ul>
       <li>
-	<a href="index.html">Home</a>
+	<a href="../../index.html">Home</a>
       </li>
       <li>
-	<a href="importance.html"> Importance</a>
+	<a href="../../importance.html"> Importance</a>
       </li>
       <li>
-	<a href="ISP.html"> ISP </a>
+	<a href="../../ISP.html"> ISP </a>
       </li>
       <li>
-	<a href="courses.html"> Courses </a>
+	<a href="../../courses.html"> Courses </a>
       </li>
       <li class="dropDown">
-	<a href="index.html"> Essays </a>
+	<a href="../../index.html"> Essays </a>
 	<div class="dropDownContent" >
 	  <a href="fingerPrints.html"> fingerPrints </a>
 	  <a href="AI.html"> AI Sentience </a>
