@@ -8,7 +8,7 @@ var fact = document.getElementById("fact");
 
 function generateFact() {
 
-    document.getElementById("fact").innerHTML = factList[factCount];
+  //  document.getElementById("fact").innerHTML = factList[factCount];
     var random = Math.floor(Math.random()*factList.length);
     //console.log(check, random);
     while (check == random) {
