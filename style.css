@@ -2,7 +2,9 @@
     margin: 10%;
     font-size: 35px;
 }
-
+.isprow {
+    display: flex;
+}
 .ispdescription {    
     display: inline-block;
     float: left;
