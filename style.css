@@ -1,15 +1,81 @@
+#runthru {
+    margin: 10%;
+    font-size: 35px;
+}
+
+.ispdescription {    
+    display: inline-block;
+    float: left;
+    font-size:20px;
+    margin-right: 10%;
+    flex-basis: auto;
+    background: #AED6F1;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.isptitles {
+    font-size: 35px;
+    margin-left: 5%;
+
+}
 * {
 margin: 0%
 }
+#courseList {
+    font-size: 35px;
+}
+#ispmotivation {
+    margin-top: 10%;
+    width: 30%;
+    height: 30%;
+    margin-top: 30%;
+}
+#containmentimg, #sceneimg, #spriteimg, #gamerun {
+    width: 30%;
+    height:30%;
+    float: right;
+    margin-right: 3%;
+}
 
+#courseLi li {
+    padding-left: 9em;
+    padding-right: 9em;
+}
 body {
 	background-color: #E5E8E8;
+}
+/* .isplist li {
+    float: left;
+    margin-right: 40%;
+    font-size: 25px;
+    list-style-type: none;
+} */
+#inspirationimg {
+    margin-top: 5%;
 }
 .optimalGroup {
     text-align: center;
     font-size: 25px;
 }
-
+#ISPtitle {
+    font-family: Vesterbro, Times, serif;
+    border: groove;
+    font-size: 75px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-align: center;
+}
+#conceptimg {
+    float:right;
+    width: 30%;
+    height: 30%;
+    margin-right: 5%;
+    display:inline;
+}
 #groupTitle {
     font-size: 40px;
 }
@@ -53,11 +119,28 @@ body {
     display: flex;
     align-items: baseline;
 }
+.courserow {
+    display: flex;
+}
+
 .optimalrow2 {
     display: flex;
     margin-left: 20%;
 }
-.goal:hover, .optimalLinks:hover, #printsEssay:hover, #AIEssay:hover, .titlepage:hover, .sources:hover, #printsFlowchart:hover {
+.courseBox {
+box-shadow: 0 0 20px 0px rgb(0 0 0 / 20%);
+display: inline-block;
+font-size: 20px;
+margin-right: 10%;
+flex-basis: auto;
+border-radius: 10px;
+margin-bottom: 5%;
+margin-left: 5%;
+padding: 70px 40px;
+box-sizing: border-box;
+transition: 0.5s;
+}
+.goal:hover, .optimalLinks:hover, #printsEssay:hover, #AIEssay:hover, .titlepage:hover, .sources:hover, #printsFlowchart:hover, .courseBox:hover {
     box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);
 }
 .coursesTitle {

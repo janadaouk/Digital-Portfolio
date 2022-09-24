@@ -44,34 +44,59 @@
   </nav>
   </header>
 <div class="margin-top">
-<h4> ISP 2021-2022 </h4>
-    <ul>
-      <li>
-    <h3> Concept: </h3>
+<h4 id="ISPtitle" > ISP 2021-2022 </h4>
+<div class="isprow" >
+  <div class="ispdescription" >
+      <h3> Concept: </h3>
 	    <p> This experience was definitely a beneficial one as I collaborated with 2 of my classmates to create a videogame in swift. As our school blocks many games available online. The google chrome dinosaur game never let us down, so building off of this, we created a similar game. The main avatar ‘princess avocado’ must get through vegetable obstacles in order to save prince lettuce. </p>
-      </li>
-      <li>
+  </div>
+  
+      <img id="conceptimg" src="https://i.postimg.cc/NGS9cr0n/ezgif-com-gif-maker-1.gif" alt="IMAGE of running avocado" >
+<!--      <img id="inspirationimg" src="https://i.postimg.cc/1zWRK4YP/Dino-non-birthday-version.gif" alt="inspiration" > -->
+</div>
+<div class="isprow" >
+      <div class="ispdescription" >
 	    <h3> Motivation: </h3>
     <p> The grade at the end of the semester definitely not being a huge motivation, we wanted to make a game about vegetables because we thought it would be fun and creative.  </p>
-      </li>
-      <li>
-    <h3>Code Segments: </h3>
-    <p id="func" > // function to play StartSound and then start the game <br>
-      func startGame(to canvas: Canvas) { <br>
-      if startGame && startsound.isready { <br>
-      canvas.render(startsound) <br>
-      print("switching to game") <br>
-    switchToGame()
-    } <br>
-    } <br> </p>
-    <p> We used this code to run some soundeffects during the game. We also called the scene transition inside this function. So, if the player clicks sstart, then this function will be called, it makes the track ready, renders it, prints text for debugging, then calls the switchToGame function. That just switches the scenes and allows the game to begin.
-      </li>
-      <li>
-    <h3> What went wrong? </h3>
-<p id="last" > Honestly, what didn't go wrong? To be fair, we did face many challenges, had to modify a few ideas to fit the timeline and our abilities, but we ended up with a game I was actually satisfied with. We even added extra ideas at some point.  </p>
-      </li>
+      </div>
+</div>
+<div class="isprow" >
+       <div class="ispdescription" >
+      <h3> Quick Runthrough of The Game: </h3>
+</div>
+       <img id="gamerun" src="https://i.postimg.cc/Ghhjtfwf/6u8ln0.gif" alt="game runthrough" >
+       </div>
+	</div>
 
-    </ul>
+<h3 class="isptitles">Code Segments: </h3>
+<div class="isprow" >
+  <div class="ispdescription" >
+<h3>  Containment Code </h3>
+    <p> We used this code to detect everytime the avocado hits any obstacle. If hit, it would have to call the losing scene, if not the game continues monitoring until it does. </p> 
+  </div>
+<img id="containmentimg" src="https://i.postimg.cc/8s8zr3X6/code.png" alt="containment code" >
+</div>
+<div class="isprow" >
+  <div class="ispdescription" >
+<h3> Switching Scences </h3>
+    <p> This is the code that is responsible to actually enque the different scenes. It wasn't that hard to figure out once we got rid of the tiny errors. Everytime we wanted to enque another scene, we just called the function. </p>
+  </div>
+  <img id="sceneimg" src="https://i.postimg.cc/xCJkJKjB/od.png" alt="scene code" >
+  
+</div>
+<div class="isprow" >
+  <div class="ispdescription" >
+	 <h3> Sprite </h3>
+	     <p> By far, I would say this took us a while to figure out. The code is simple now, but it took a lot of effort to get there. This code switches between the different sprites on the spritesheet to make the avocado look like its running. </p>
+  </div>
+  <img id="spriteimg" src="https://i.postimg.cc/6Q76YBsv/Screenshot-2022-09-22-222705.png" alt="sprite code" >
+       </div>
+<div class="isprow" >
+<div class="ispdescription" >
+    <h3> What went wrong? </h3>
+<p id="last" > Honestly, what did not go wrong? To be fair, we did face many challenges, had to modify a few ideas to fit the timeline and our abilities, but we ended up with a game I was actually satisfied with. We even added extra ideas at some point.  </p>
+</div>
+</div>
 </div>
 </body>
 </html>  
