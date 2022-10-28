@@ -5,6 +5,52 @@
 .isprow {
     display: flex;
 }
+span.notbold {
+    font-weight: normal;
+}
+.considered {
+    flex-basis: 100%;
+    background: beige;
+    color: maroon;
+    border: 2px solid black; 
+    border-radius: 10px;
+    margin-bottom: 17%;
+    font-size: 35px;
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7%;
+    text-align: center;
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+#ISPyear {
+    text-align: center;
+   margin-top: 3%;
+}
+.businessProposal {
+    font-size: 35px;
+    margin-top: 30%;
+    flex-basis: auto;
+    background: beige;
+    color: maroon;
+    border: 2px solid black;
+    border-style: groove;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 70px 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.businessProposal li{
+    margin-top: 5%;
+  
+}
+
 .ispdescription {    
     display: inline-block;
     float: left;
@@ -62,6 +108,10 @@ body {
 .optimalGroup {
     text-align: center;
     font-size: 25px;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    margin-right: 10%;
+		 
 }
 #ISPtitle {
     font-family: Vesterbro, Times, serif;
@@ -78,8 +128,14 @@ body {
     margin-right: 5%;
     display:inline;
 }
-#groupTitle {
-    font-size: 40px;
+.groupTitle {
+    padding: 5%;
+    font-size: 30px;
+    margin-bottom: 5%;
+    border-style: double;
+    color: black;
+    border: 2px;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);   
 }
 
 #optimaltitle2 {
@@ -127,7 +183,7 @@ body {
 
 .optimalrow2 {
     display: flex;
-    margin-left: 20%;
+    margin-left: 7%;
 }
 .courseBox {
 box-shadow: 0 0 20px 0px rgb(0 0 0 / 20%);
@@ -142,7 +198,7 @@ padding: 70px 40px;
 box-sizing: border-box;
 transition: 0.5s;
 }
-.goal:hover, .optimalLinks:hover, #printsEssay:hover, #AIEssay:hover, .titlepage:hover, .sources:hover, #printsFlowchart:hover, .courseBox:hover {
+.goal:hover, .optimalLinks:hover, #printsEssay:hover, #AIEssay:hover, .titlepage:hover, .sources:hover, #printsFlowchart:hover, .courseBox:hover, .considered:hover {
     box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);
 }
 .coursesTitle {
@@ -203,7 +259,7 @@ transition: 0.5s;
 }
 .vl {
     border-left: 1px solid black;
-    height: 300px;
+    height: 320px;
     position: absolute;
     left: 40%;
     margin-left: -3px;
@@ -213,9 +269,10 @@ transition: 0.5s;
     flex-basis: auto;
     background: #AED6F1;
     border-radius: 10px;
-    margin-bottom: 5%;
-    margin-right: 2.5%;
-    margin-left: 45%;
+    margin-bottom: 4%;
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 70px 40px ;
     box-sizing: border-box;
     transition: 0.5s;
@@ -232,11 +289,10 @@ transition: 0.5s;
     transition: 0.5s;
 }
 h1 {
-    position: absolute;
-    top: 55%;
-    left: 30%;
+   
+   padding-top: 10%;
     font-size: 4.5em;
-    
+    text-align: center;    
 }
 .margin-top{
     margin-top: 15%;    
@@ -294,8 +350,10 @@ h4 {
     border-radius: 10px;
     margin-bottom: 17%;
     font-size: 35px;
-    margin-left: 80%;
-    margin-top: 27%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    display: block;
     text-align: center;
     padding: 30px 15px;
     box-sizing: border-box;
@@ -400,7 +458,6 @@ header li {
     display: inline;
     color: black;
     padding: 1%;
-
 }
 
 header li a {
@@ -422,7 +479,7 @@ nav {
     z-index:1; 
     top: 0;
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
  }
 li.dropDown {
     display: inline-block;
