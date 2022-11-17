@@ -2,6 +2,15 @@
     margin: 10%;
     font-size: 35px;
 }
+.translator {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+.translatorList li a {
+    font-size: 17px;
+    margin: 2%;    
+}
 .isprow {
     display: flex;
 }
@@ -46,11 +55,10 @@ span.notbold {
     transition: 0.5s;
 }
 
-.businessProposal li{
-    margin-top: 5%;
-  
-}
 
+.proposalLi li {
+    margin-top: 5%;
+}
 .ispdescription {    
     display: inline-block;
     float: left;
