@@ -16,6 +16,7 @@
 }
 span.notbold {
     font-weight: normal;
+    font-size: 20px;
 }
 .considered {
     flex-basis: 100%;
@@ -164,7 +165,6 @@ body {
     transition: 0.5s;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    line-height: 2;
 }
 .sources {
     flex-basis: 100%;
@@ -389,7 +389,11 @@ h4 {
     margin-top: 7%;
     padding: 20px 6px;
     box-sizing: border-box;
- }
+}
+#printsEssay h5 {
+    font-size: 25px;
+    margin: 2%;
+}
 #factButton {
     position: absolute;
     display: inline;
