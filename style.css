@@ -11,6 +11,9 @@
     font-size: 17px;
     margin: 2%;    
 }
+.jan2 li {
+    margin-bottom: 4%;
+}
 .isprow {
     display: flex;
 }
@@ -48,7 +51,7 @@ span.notbold {
     border: 2px solid black;
     border-style: groove;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: -18%;
     margin-right: 15%;
     margin-left: 15%;
     padding: 70px 40px;
