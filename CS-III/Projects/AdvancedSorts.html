@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+  <head>
+<title>Jana</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../style.css" >
+    <script src="script.js"> </script>
+  </head>
+<body>
+  <header>
+  
+    <nav>
+    <ul>
+      <li>
+	<p id="name" > Jana Daouk </p>
+	</li>
+      <li>
+	<a href="../../index.html">Home</a>
+      </li>
+      <li>
+	<a href="../../importance.html"> Importance</a>
+      </li>
+      <li class="dropDown">
+	<a href="index.html"> CS-I </a>
+	<div class="dropDownContent" >
+	  <a href="../../ISP.html"> ISP </a>
+	  </div>
+      </li>
+      <li>
+	<a href="../../courses.html"> Courses </a>
+      </li>
+      <li class="dropDown">
+	<a href="../../index.html"> Essays </a>
+	<div class="dropDownContent" >
+	  <a href="fingerPrints.html"> fingerPrints </a>
+	  <a href="AI%20Sentience.html"> AI Sentience </a>
+	   <a href="Decision%20Making.html"> Decision Making</a>  
+	</div>
+      </li>
+      
+      <li class="dropDown">
+	<a href="../../index.html"> Projects </a>
+	   <div class="dropDownContent" >
+	     <a href="../Projects/AdvancedSort.com" > Sort </a>
+	   </div>
+	   </li>
+<li> <p id="title"> Digital Portfolio </p> </li>      
+</ul>
+  </nav>
+  </header>
+<div class="margin-top" >  
+<div class="titlepage" >
+  <h4 style="font-size:30px">
+    Advanced Sorts
+<br>
+<br>
+<br>
+<span class="notbold">    
+    Jana Daouk <br>
+    ALLEN ISD STEAM center <br>
+    Computer Science II <br>
+    Mr. Ben Yaakov  <br>
+    September 1, 2023
+</span>    </h4>
+  </div>
+<div id="printsEssay" >
+<div class="essay" >
+      <p>To sort different data, there are multiple different sorting algorithms one could use in order to achieve their goal. With some similarities, merge sort, quicksort, and heapsort work in different ways to achieve this goal.
+    </p>
+
+<p>Starting with merge sort, it utilizes the divide and conquer methodology. It works by breaking down the problem of sorting an array into smaller problems. It then sorts those subproblems, finally merging the sorted subarrays to produce a final sorted result.
+To start this process in detail, it divides the original array in two: a left and a right array. Then, it keeps doing that (through recursion) until it reaches one or zero elements. So technically, that element alone is sorted. Now, we have left and right subarrays. Because all of the elements are single and technically sorted, we start back up the stack. The last left subarray created and the last right subarray are then compared. They are sorted, then merged into one array. That keeps happening back up the stack recursively until all the subarrays have combined into one sorted array. So when merging subarrays, an element from the left is compared with one on the right, then the correct one is inserted into the "merge" array, and the index of the array carrying the smaller integer is incremented.
+	  </p> 
+
+<p> Second, the Quicksort is a recurion based sorting algorithm, where a "pivot" element is picked. To pick this element, one would usually use the median-of-three method for time efficiency and to even out the work. It's when one looks at the first, last, and middle element of the array, sorts them, then takes the middle one. It's basically making the assumption that the middle one is close to the actual median of the array. After that, it takes the pivot and creates two subarrays. Starting from the left, whatever is less than or equal to the pivot goes in the left array and whatever is larger goes in the right subarray. Then, a pivot is taken from each of the left and right arrays and the same thing is repeated until a singular element is left. That is done through recursion to avoid repetitive code (a function calls on itself until it reaches a base case). Now, they are merged them from the end of the recursive stack to the top with the elements less than or equal to the pivot on the pivot's left and the ones greater than it on the right. After that, a sorted array is acheived.	 </p>
+<p> In comparison to merge and quicksort, heapsort is a comparison-based sorting algorithm. It starts by creating a 'max-heap', which is a binary tree that makes sure each parent is greater than or equal to its child. It's basically like a family tree where the original parent is supposed to be older than the children that come after it, with each parent not allowed more than two children. It starts with creating this max-heap, taking the first element from the left in the array and places it as the original parent. It goes through the array denoting them as children, with each parent not allowed more than two. Then, as the index is incremented by one, the comparison will be going down the heap. The comparison between the children to their parents starts from the top. If the child is greater than the parent, they switch. That continues to to happen down the heap. After going through the entire heap, the first and last nodes in the array are swapped, then the last node is removed from the heap. This is repeated until one element is left in the entire heap. After that, the array will be sorted.</p>
+      <p>Since each of the three sorts have specific strengths and weaknesses, their time complexities will vary according to their efficiency with the given dataset. With Merge sort, it has a time complexity of O(n log n), indicating its efficiency to use with large datasets. On the other hand, quicksort's time complexity varies according to the pivot picked and the dataset itself. For example, it'll be a lot slower with a sorted dataset because of how far the recursion stack will go. Its average-case and best-time-case time complexity is O(n log n) like merge sort. However, in the worst case, it can go as far as O(n^2). And lastly with Heapsort, since it doesn't vary, it is more consistent and predictable than Quicksort's worst-case scenario. Its time complexity is O(n log n) all the time. Despite that, it is still less used than both merge and quicksort.	 </p>
+      <p> Finally, because of the different ways these execute, they each also have different space complexities. With merge sort, it requires additional space because it stores subarrays as it completes the sorting process. Its space complexity ends up being O(n). Quicksort on the other hand, requires less additional space than merge sort because it works on the array itself, changing it directly. The bulk of the additional space is for the recursion stack, leaving it with a space complexity of O(log n).However, heapsort requires a constant amount of this extra space. That is because it sorts the dataset in its place. Its time complexity is O(1).</p>
+</div>
+</div>
+<div class="sources">
+  <h3> References </h3>
+      <ul>
+	<li> Quick sort in 4 minutes
+<a href="https://www.youtube.com/watch?v=Hoixgm4-P4M"> https://www.youtube.com/watch?v=Hoixgm4-P4M </a>
+	</li>
+	<li> Merge Sort in 3 minutes<a href="https://www.youtube.com/watch?v=4VqmGXwpLqc"> https://www.youtube.com/watch?v=4VqmGXwpLqc </a> </li>
+	<li> Heap Sort in 4 minutes<a href="https://www.youtube.com/watch?v=2DmK_H7IdTo" > https://www.youtube.com/watch?v=2DmK_H7IdTo</a></li>
+	<li> Quick Sort - Computerphile<a href="https://www.youtube.com/watch?v=XE4VP_8Y0BU" >https://www.youtube.com/watch?v=XE4VP_8Y0BU </a> </li>
+	<li>Heap Sort | GeeksforGeeks <a href="https://www.youtube.com/watch?v=MtQL_ll5KhQ" >https://www.youtube.com/watch?v=MtQL_ll5KhQ </a> </li>
+      </ul>
+      </div>
+  </body>
+</html>  
